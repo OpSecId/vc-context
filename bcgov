@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "schema": "http://schema.org/#",
+    "identifier": "schema:identifier",
+    "description": "schema:description",
+
+    "TenureTitle": {
+      "@id": "https://www2.gov.bc.ca/gov/content/industry/natural-gas-oil/petroleum-natural-gas-tenure",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
+        "titleHolder": "act:holder+of+a+location",
+        "interest": "act:interest",
+        "division": "act:division",
+        "well": "act:well",
+        "rights": "act:d2e1657",
+
+        "DrillingLicence": "act:licence",
+        "PetroleumAndNaturalGasLease": "act:lease",
+        "NaturalGasLease": "act:lease",
+        "PetroleumLease": "act:lease",
+    
+        "GasWell": "act:gas+well",
+        "StorageWell": "act:storage+well",
+        "PetroleumWell": "act:petroleum+well",
+        "WaterSourceWell": "act:water+source+well",
+    
+        "NaturalGas": "act:natural+gas",
+        "Petroleum": "act:petroleum",
+    
+        "Permittee": "act:permittee",
+        "Lessee": "act:lessee",
+        "Licensee": "act:licensee",
+    
+        "Director": "act:director"
+      }
+    }
+  }
+}
