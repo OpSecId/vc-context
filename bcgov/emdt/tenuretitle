@@ -6,12 +6,14 @@
     "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
 
     "url": "https://schema.org/url",
+    "Organization": "https://schema.org/Organization",
+
     "well": "act:well",
     "rights": "act:d2e1657",
     "interest": "act:interest",
     "division": "act:division",
     "titleHolder": "act:holder+of+a+location",
-    
+
     "TitleHolder": "act:holder+of+a+location",
 
     "BCLaw": "https://www.bclaws.gov.bc.ca/",
