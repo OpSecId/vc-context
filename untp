@@ -12,7 +12,7 @@
         "type": "@type",
         "ConformityAssessment": "id:conformityassessment",
         "ConformityAttestation": "id:conformityattestation",
-        "assessments": "id:conformityassessment",
+        "assessments": "@id:conformityassessment",
         "topic": "id:sustainabilitytopic",
         "standard": "id:standard",
         "regulation": "id:regulation",
