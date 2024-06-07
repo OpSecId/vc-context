@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+
+    "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
+
+    "well": "act:well",
+    "rights": "act:d2e1657",
+    "interest": "act:interest",
+    "division": "act:division",
+    "titleHolder": "act:holder+of+a+location",
+
+    "BCLaw": "https://www.bclaws.gov.bc.ca/",
+    "TenureTitle": "https://www2.gov.bc.ca/gov/content/industry/natural-gas-oil/petroleum-natural-gas-tenure",
+
+    "DrillingLicence": "act:licence",
+    "PetroleumAndNaturalGasLease": "act:lease",
+    "NaturalGasLease": "act:lease",
+    "PetroleumLease": "act:lease",
+
+    "Well": "act:well",
+    "GasWell": "act:gas+well",
+    "StorageWell": "act:storage+well",
+    "PetroleumWell": "act:petroleum+well",
+    "WaterSourceWell": "act:water+source+well",
+
+    "Petroleum": "act:petroleum",
+    "NaturalGas": "act:natural+gas",
+
+    "Lessee": "act:lessee",
+    "Licensee": "act:licensee",
+    "Permittee": "act:permittee",
+
+    "Director": "act:director"
+
+  }
+}
