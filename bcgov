@@ -5,38 +5,33 @@
 
     "png-act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
 
-    "TenureTitle": {
-      "@id": "https://www2.gov.bc.ca/gov/content/industry/natural-gas-oil/petroleum-natural-gas-tenure",
-      "@context": {
-        "@version": 1.1,
-        "@protected": true,
-        "id": "@id",
-        "type": "@type",
-        "titleHolder": "png-act:holder+of+a+location",
-        "interest": "png-act:interest",
-        "division": "png-act:division",
-        "well": "png-act:well",
-        "rights": "png-act:d2e1657",
 
-        "DrillingLicence": "png-act:licence",
-        "PetroleumAndNaturalGasLease": "png-act:lease",
-        "NaturalGasLease": "png-act:lease",
-        "PetroleumLease": "png-act:lease",
-    
-        "GasWell": "png-act:gas+well",
-        "StorageWell": "png-act:storage+well",
-        "PetroleumWell": "png-act:petroleum+well",
-        "WaterSourceWell": "png-act:water+source+well",
-    
-        "NaturalGas": "png-act:natural+gas",
-        "Petroleum": "png-act:petroleum",
-    
-        "Permittee": "png-act:permittee",
-        "Lessee": "png-act:lessee",
-        "Licensee": "png-act:licensee",
-    
-        "Director": "png-act:director"
-      }
-    }
+    "titleHolder": "png-act:holder+of+a+location",
+    "interest": "png-act:interest",
+    "division": "png-act:division",
+    "well": "png-act:well",
+    "rights": "png-act:d2e1657",
+
+    "TenureTitle": "https://www2.gov.bc.ca/gov/content/industry/natural-gas-oil/petroleum-natural-gas-tenure",
+
+    "DrillingLicence": "png-act:licence",
+    "PetroleumAndNaturalGasLease": "png-act:lease",
+    "NaturalGasLease": "png-act:lease",
+    "PetroleumLease": "png-act:lease",
+
+    "GasWell": "png-act:gas+well",
+    "StorageWell": "png-act:storage+well",
+    "PetroleumWell": "png-act:petroleum+well",
+    "WaterSourceWell": "png-act:water+source+well",
+
+    "NaturalGas": "png-act:natural+gas",
+    "Petroleum": "png-act:petroleum",
+
+    "Permittee": "png-act:permittee",
+    "Lessee": "png-act:lessee",
+    "Licensee": "png-act:licensee",
+
+    "Director": "png-act:director"
+
   }
 }
