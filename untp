@@ -5,8 +5,8 @@
 
     "untp-cc": "https://uncefact.github.io/spec-untp/docs/specification/ConformityCredential#",
 
-    "ConformityAssessment": "untp-cc:conformityassessment",
-    "ConformityAttestation": "untp-cc:conformityattestation",
+    "ConformityAssessment": {"@id": "untp-cc:conformityassessment"},
+    "ConformityAttestation": {"@id": "untp-cc:conformityattestation"},
     "assessments": "untp-cc:conformityassessment",
     "topic": "untp-cc:sustainabilitytopic",
     "standard": "untp-cc:standard",
