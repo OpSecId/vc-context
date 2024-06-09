@@ -1,21 +1,11 @@
 {
   "@context": {
-    "@version": 1.1,
     "@protected": true,
 
-    "spec": "https://uncefact.github.io/spec-untp/docs/specification/",
-
-    "assessments": "spec:ConformityCredential#conformityassessment",
-    "topic": "spec:ConformityCredential#sustainabilitytopic",
-    "standard": "spec:ConformityCredential#standard",
-    "regulation": "spec:ConformityCredential#regulation",
-    "issuingBody": "spec:ConformityCredential#party",
-    "products": "spec:ConformityCredential#product",
-    "facilities": "spec:ConformityCredential#facility",
-    "entities": "spec:ConformityCredential#party",
+    "untp": "https://uncefact.github.io/spec-untp/docs/specification/",
     
     "ConformityCredential": {
-      "@id": "spec:ConformityCredential#overview",
+      "@id": "untp:ConformityCredential",
       "@context": {
         "@protected": true,
 
@@ -25,7 +15,7 @@
     },
     
     "ConformityAttestation": {
-      "@id": "spec:ConformityCredential#conformityattestation",
+      "@id": "untp:ConformityCredential#conformityattestation",
       "@context": {
         "@protected": true,
 
@@ -35,7 +25,7 @@
     },
 
     "ConformityAssessment": {
-      "@id": "spec:ConformityCredential#conformityassessment",
+      "@id": "untp:ConformityCredential#conformityassessment",
       "@context": {
         "@protected": true,
 
