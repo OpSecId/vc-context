@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+
+    "spec": "https://uncefact.github.io/spec-untp/docs/specification/",
+    
+    "RawMaterial": "spec:Extensions/RawMaterial#rawmaterial",
+    
+    "Commodity": "spec:Extensions/RawMaterial#commodity"
+  }
+}
