@@ -2,6 +2,8 @@
   "@context": {
     "@protected": true,
 
+    "BCLaw": "https://www.bclaws.gov.bc.ca/",
+
     "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
     "governance": "https://raw.githubusercontent.com/bcgov/bc-vcpedia/main/credentials/bc-petroleum-and-natural-gas-title/governance.md#",
 
@@ -18,7 +20,6 @@
     "tractRights": "act:d2e1657",
     "tractNotes": "governance:notes",
 
-    "BCLaw": "https://www.bclaws.gov.bc.ca/",
     "TenureTitle": "https://www2.gov.bc.ca/gov/content/industry/natural-gas-oil/petroleum-natural-gas-tenure",
 
     "DrillingLicence": "act:licence",
