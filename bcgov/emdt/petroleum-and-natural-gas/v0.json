@@ -12,10 +12,11 @@
     "GovernmentOrganization": "https://schema.org/GovernmentOrganization",
 
     "well": "act:well",
-    "rights": "act:d2e1657",
     "interest": "act:interest",
     "division": "act:division",
-    "TitleHolder": "act:holder+of+a+location",
+    "caveats": "governance:caveats",
+    "tractRights": "act:d2e1657",
+    "tractNotes": "governance:notes",
 
     "BCLaw": "https://www.bclaws.gov.bc.ca/",
     "TenureTitle": "https://www2.gov.bc.ca/gov/content/industry/natural-gas-oil/petroleum-natural-gas-tenure",
@@ -34,9 +35,11 @@
     "Petroleum": "act:petroleum",
     "NaturalGas": "act:natural+gas",
 
+    "Right": "act:d2e1657",
     "Lessee": "act:lessee",
     "Licensee": "act:licensee",
     "Permittee": "act:permittee",
+    "TitleHolder": "act:holder+of+a+location",
 
     "Director": "act:director",
 
