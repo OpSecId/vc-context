@@ -1,21 +1,20 @@
 {
   "@context": {
-    "@version": 1.1,
     "@protected": true,
 
     "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
+    "governance": "https://raw.githubusercontent.com/bcgov/bc-vcpedia/main/credentials/bc-petroleum-and-natural-gas-title/governance.md#",
 
     "url": "https://schema.org/url",
     "Person": "https://schema.org/Person",
-    "Organization": "https://schema.org/Organization",
     "memberOf": "https://schema.org/memberOf",
+    "Organization": "https://schema.org/Organization",
+    "GovernmentOrganization": "https://schema.org/GovernmentOrganization",
 
     "well": "act:well",
     "rights": "act:d2e1657",
     "interest": "act:interest",
     "division": "act:division",
-    "titleHolder": "act:holder+of+a+location",
-
     "TitleHolder": "act:holder+of+a+location",
 
     "BCLaw": "https://www.bclaws.gov.bc.ca/",
@@ -39,7 +38,9 @@
     "Licensee": "act:licensee",
     "Permittee": "act:permittee",
 
-    "Director": "act:director"
+    "Director": "act:director",
+
+    "Tract": "act:location"
 
   }
 }
