@@ -30,7 +30,13 @@
         "@protected": true,
 
         "id": "@id",
-        "type": "@type"
+        "type": "@type",
+        
+        "topic": "untp:ConformityCredential#sustainabilitytopic",
+        "regulation": "untp:ConformityCredential#regulation",
+        "products": "untp:ConformityCredential#product",
+        "facilities": "untp:ConformityCredential#facility",
+        "entities": "untp:ConformityCredential#party"
       }
     }
   }
