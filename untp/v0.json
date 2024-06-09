@@ -3,6 +3,10 @@
     "@protected": true,
 
     "untp": "https://uncefact.github.io/spec-untp/docs/specification/",
+
+    "assessments": "untp:ConformityCredential#conformityassessment",
+    "standard": "untp:ConformityCredential#standard",
+    "issuingBody": "untp:ConformityCredential#party",
     
     "ConformityCredential": {
       "@id": "untp:ConformityCredential",
@@ -31,6 +35,8 @@
 
         "id": "@id",
         "type": "@type",
+        
+        "untp": "https://uncefact.github.io/spec-untp/docs/specification/",
         
         "topic": "untp:ConformityCredential#sustainabilitytopic",
         "regulation": "untp:ConformityCredential#regulation",
