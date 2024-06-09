@@ -4,19 +4,18 @@
     "@protected": true,
 
     "spec": "https://uncefact.github.io/spec-untp/docs/specification/",
-    "untp-cc": "https://uncefact.github.io/spec-untp/docs/specification/ConformityCredential#",
 
-    "ConformityCredential": {"@id": "untp-cc:overview"},
-    "ConformityAssessment": {"@id": "untp-cc:conformityassessment"},
-    "ConformityAttestation": {"@id": "untp-cc:conformityattestation"},
+    "ConformityCredential": {"@id": "spec:ConformityCredential#overview"},
+    "ConformityAssessment": {"@id": "spec:ConformityCredential#conformityassessment"},
+    "ConformityAttestation": {"@id": "spec:ConformityCredential#conformityattestation"},
     
-    "assessments": "untp-cc:conformityassessment",
-    "topic": "untp-cc:sustainabilitytopic",
-    "standard": "untp-cc:standard",
-    "regulation": "untp-cc:regulation",
-    "issuingBody": "untp-cc:party",
-    "products": "untp-cc:product",
-    "facilities": "untp-cc:facility",
-    "entities": "untp-cc:party"
+    "assessments": "spec:ConformityCredential#conformityassessment",
+    "topic": "spec:ConformityCredential#sustainabilitytopic",
+    "standard": "spec:ConformityCredential#standard",
+    "regulation": "spec:ConformityCredential#regulation",
+    "issuingBody": "spec:ConformityCredential#party",
+    "products": "spec:ConformityCredential#product",
+    "facilities": "spec:ConformityCredential#facility",
+    "entities": "spec:ConformityCredential#party"
   }
 }
