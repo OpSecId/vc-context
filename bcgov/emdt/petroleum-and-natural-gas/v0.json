@@ -40,12 +40,27 @@
 
         "rights": "act:d2e1657",
         "notes": "governance:notes",
+        "zones": "governance:zone",
         "Right": "act:d2e1657"
       }
     },
     
+    "Well": {
+      "@id": "act:well",
+      "@context": {
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
+
+        "zones": "governance:zone"
+      }
+    },
+    
     "TitleHolder": {
-      "@id": "act:location",
+      "@id": "act:holder+of+a+location",
       "@context": {
         "@protected": true,
 
@@ -66,7 +81,6 @@
     "Petroleum": "act:petroleum",
     "NaturalGas": "act:natural+gas",
 
-    "Well": "act:well",
     "GasWell": "act:gas+well",
     "StorageWell": "act:storage+well",
     "PetroleumWell": "act:petroleum+well",
