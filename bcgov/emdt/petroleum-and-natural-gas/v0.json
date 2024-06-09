@@ -12,20 +12,59 @@
     "memberOf": "https://schema.org/memberOf",
     "Organization": "https://schema.org/Organization",
     "GovernmentOrganization": "https://schema.org/GovernmentOrganization",
+    
+    "TenureTitle": {
+      "@id": "https://www2.gov.bc.ca/gov/content/industry/natural-gas-oil/petroleum-natural-gas-tenure",
+      "@context": {
+        "@protected": true,
 
-    "well": "act:well",
-    "interest": "act:interest",
-    "division": "act:division",
-    "caveats": "governance:caveats",
-    "tractRights": "act:d2e1657",
-    "tractNotes": "governance:notes",
+        "id": "@id",
+        "type": "@type",
 
-    "TenureTitle": "https://www2.gov.bc.ca/gov/content/industry/natural-gas-oil/petroleum-natural-gas-tenure",
+        "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
+        "governance": "https://raw.githubusercontent.com/bcgov/bc-vcpedia/main/credentials/bc-petroleum-and-natural-gas-title/governance.md#",
 
-    "DrillingLicence": "act:licence",
-    "PetroleumAndNaturalGasLease": "act:lease",
-    "NaturalGasLease": "act:lease",
+        "caveats": "governance:caveats"
+      }
+    },
+    
+    "Tract": {
+      "@id": "act:location",
+      "@context": {
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
+
+        "rights": "act:d2e1657",
+        "notes": "governance:notes",
+        "Right": "act:d2e1657"
+      }
+    },
+    
+    "TitleHolder": {
+      "@id": "act:location",
+      "@context": {
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
+
+        "interest": "act:interest"
+      }
+    },
+
+    "DrillingPermit": "act:permit",
     "PetroleumLease": "act:lease",
+    "NaturalGasLease": "act:lease",
+    "PetroleumAndNaturalGasLease": "act:lease",
+
+    "Petroleum": "act:petroleum",
+    "NaturalGas": "act:natural+gas",
 
     "Well": "act:well",
     "GasWell": "act:gas+well",
@@ -33,18 +72,11 @@
     "PetroleumWell": "act:petroleum+well",
     "WaterSourceWell": "act:water+source+well",
 
-    "Petroleum": "act:petroleum",
-    "NaturalGas": "act:natural+gas",
-
-    "Right": "act:d2e1657",
     "Lessee": "act:lessee",
     "Licensee": "act:licensee",
     "Permittee": "act:permittee",
-    "TitleHolder": "act:holder+of+a+location",
 
-    "Director": "act:director",
-
-    "Tract": "act:location"
+    "Director": "act:director"
 
   }
 }

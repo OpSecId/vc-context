@@ -39,11 +39,26 @@
         "untp": "https://uncefact.github.io/spec-untp/docs/specification/",
         
         "topic": "untp:ConformityCredential#sustainabilitytopic",
+        "level": "untp:ConformityCredential#assessmentAssuranceCode",
         "regulation": "untp:ConformityCredential#regulation",
         "products": "untp:ConformityCredential#product",
-        "facilities": "untp:ConformityCredential#facility",
         "entities": "untp:ConformityCredential#party",
+        "facilities": "untp:ConformityCredential#facility"
+      }
+    },
+
+    "Regulation": {
+      "@id": "untp:ConformityCredential#regulation",
+      "@context": {
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "untp": "https://uncefact.github.io/spec-untp/docs/specification/",
+
         "standard": "untp:ConformityCredential#standard",
+        "effectiveDate": "https://www.w3.org/2018/credentials#validFrom",
         "issuingBody": "untp:ConformityCredential#party"
       }
     }
