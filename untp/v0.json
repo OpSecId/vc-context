@@ -24,8 +24,7 @@
 
         "id": "@id",
         "type": "@type"
-      },
-      "assessments": "spec:ConformityCredential#conformityassessment"
+      }
     },
 
     "ConformityAssessment": {
