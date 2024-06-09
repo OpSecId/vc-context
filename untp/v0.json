@@ -3,10 +3,6 @@
     "@protected": true,
 
     "untp": "https://uncefact.github.io/spec-untp/docs/specification/",
-
-    "assessments": "untp:ConformityCredential#conformityassessment",
-    "standard": "untp:ConformityCredential#standard",
-    "issuingBody": "untp:ConformityCredential#party",
     
     "ConformityCredential": {
       "@id": "untp:ConformityCredential",
@@ -24,7 +20,11 @@
         "@protected": true,
 
         "id": "@id",
-        "type": "@type"
+        "type": "@type",
+
+        "untp": "https://uncefact.github.io/spec-untp/docs/specification/",
+
+        "assessments": "untp:ConformityCredential#conformityassessment"
       }
     },
 
@@ -35,14 +35,16 @@
 
         "id": "@id",
         "type": "@type",
-        
+
         "untp": "https://uncefact.github.io/spec-untp/docs/specification/",
         
         "topic": "untp:ConformityCredential#sustainabilitytopic",
         "regulation": "untp:ConformityCredential#regulation",
         "products": "untp:ConformityCredential#product",
         "facilities": "untp:ConformityCredential#facility",
-        "entities": "untp:ConformityCredential#party"
+        "entities": "untp:ConformityCredential#party",
+        "standard": "untp:ConformityCredential#standard",
+        "issuingBody": "untp:ConformityCredential#party"
       }
     }
   }
