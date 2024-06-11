@@ -1,0 +1,24 @@
+{
+    "@context": {
+      "@protected": true,
+  
+      "anoncreds": "https://hyperledger.github.io/anoncreds-spec/#",
+      "anoncreds-cryptosuite": "https://hyperledger.github.io/anoncreds-spec/#",
+
+      "Accumulator": "anoncreds:term:accumulator",
+      "Schema": "anoncreds:term:schema",
+      "CredentialDefinition": "anoncreds:term:credential-definition",
+      "CredentialOffer": "anoncreds:term:credential-offer",
+      "CredentialRequest": "anoncreds:term:credential-request",
+      "BlindedSecret": "anoncreds:term:blinded-secret",
+      "BlindedSecretsCorrectnessProof": "anoncreds:term:blinded-secrets-correctness-proof",
+      "PresentationRequest": "anoncreds:term:presentation-request",
+      "AnonCredsCredential": "anoncreds:term:credential",
+      "SignatureCorrectnessProof": "anoncreds:term:signature-corectness-proof",
+      "VerifiableDataRegistry": "anoncreds:term:verifiable-data-registry",
+
+      "nonce": "anoncreds:term:nonce",
+      "anoncreds-2023": "anoncreds-cryptosuite:cryptosuite"
+    }
+  }
+  
