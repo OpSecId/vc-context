@@ -25,8 +25,6 @@
         "id": "@id",
         "type": "@type",
 
-        "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
-
         "origin": "governance:origin",
         "caveats": "governance:caveats"
       }
@@ -39,8 +37,6 @@
 
         "id": "@id",
         "type": "@type",
-
-        "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
 
         "rights": "https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/natural-gas-oil/png-crown-sale/publications/biddinganddispositionguide.pdf",
         "notes": "governance:notes",
@@ -57,8 +53,6 @@
         "id": "@id",
         "type": "@type",
 
-        "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
-
         "zones": "act:zone"
       }
     },
@@ -70,8 +64,6 @@
 
         "id": "@id",
         "type": "@type",
-
-        "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
 
         "interest": "act:interest"
       }
