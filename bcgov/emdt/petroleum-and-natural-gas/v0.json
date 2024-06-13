@@ -7,8 +7,6 @@
     "site": "https://www2.gov.bc.ca/gov/content/industry/natural-gas-oil/petroleum-natural-gas-tenure",
     "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
     "governance": "https://bcgov.github.io/bc-vcpedia/credentials/bc-petroleum-and-natural-gas-title/governance#",
-    "regulation": "https://www.bclaws.gov.bc.ca/civix/content/complete/statreg/1922970521/96361/reg96361/?xsl=/templates/browse.xsl",
-    "policy": "https://www2.gov.bc.ca/gov/content/industry/natural-gas-oil/petroleum-natural-gas-tenure/publications",
 
     "url": "https://schema.org/url",
     "Person": "https://schema.org/Person",
