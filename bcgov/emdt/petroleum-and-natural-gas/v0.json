@@ -26,7 +26,6 @@
         "type": "@type",
 
         "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
-        "governance": "https://bcgov.github.io/bc-vcpedia/credentials/bc-petroleum-and-natural-gas-title/governance.html#",
 
         "origin": "governance:origin",
         "caveats": "governance:caveats"
@@ -42,7 +41,6 @@
         "type": "@type",
 
         "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
-        "governance": "https://bcgov.github.io/bc-vcpedia/credentials/bc-petroleum-and-natural-gas-title/governance.html#",
 
         "rights": "https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/natural-gas-oil/png-crown-sale/publications/biddinganddispositionguide.pdf",
         "notes": "governance:notes",
@@ -60,7 +58,6 @@
         "type": "@type",
 
         "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
-        "governance": "https://bcgov.github.io/bc-vcpedia/credentials/bc-petroleum-and-natural-gas-title/governance.html#",
 
         "zones": "act:zone"
       }
@@ -75,7 +72,6 @@
         "type": "@type",
 
         "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
-        "governance": "https://bcgov.github.io/bc-vcpedia/credentials/bc-petroleum-and-natural-gas-title/governance.html#",
 
         "interest": "act:interest"
       }
