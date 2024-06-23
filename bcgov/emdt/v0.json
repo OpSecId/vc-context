@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "@protected": true,
+
+    "Law": "https://www.bclaws.gov.bc.ca/",
+
+    "site": "https://www2.gov.bc.ca/gov/content/industry/natural-gas-oil/petroleum-natural-gas-tenure",
+    "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
+    "governance": "https://bcgov.github.io/bc-vcpedia/credentials/bc-petroleum-and-natural-gas-title/governance#",
+    "regulation": "https://www.bclaws.gov.bc.ca/civix/content/complete/statreg/1922970521/96361/reg96361/?xsl=/templates/browse.xsl",
+    "policy": "https://www2.gov.bc.ca/gov/content/industry/natural-gas-oil/petroleum-natural-gas-tenure/publications",
+
+    "url": "https://schema.org/url",
+    "Person": "https://schema.org/Person",
+    "jobTitle": "https://schema.org/jobTitle",
+    "memberOf": "https://schema.org/memberOf",
+    "Organization": "https://schema.org/Organization",
+    "GovernmentOrganization": "https://schema.org/GovernmentOrganization",
+
+    "TenureTitleOrigin": "governance:origin",
+    
+    "TenureTitle": {
+      "@id": "site",
+      "@context": {
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
+
+        "origin": "governance:origin",
+        "caveats": "governance:caveats"
+      }
+    },
+    
+    "Tract": {
+      "@id": "act:location",
+      "@context": {
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
+
+        "rights": "https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/natural-gas-oil/png-crown-sale/publications/biddinganddispositionguide.pdf",
+        "notes": "governance:notes",
+        "zones": "act:zone",
+        "Right": "act:d2e1657"
+      }
+    },
+    
+    "Well": {
+      "@id": "act:well",
+      "@context": {
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
+
+        "zones": "act:zone"
+      }
+    },
+    
+    "TitleHolder": {
+      "@id": "act:holder+of+a+location",
+      "@context": {
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
+
+        "interest": "act:interest"
+      }
+    },
+
+    "Director": "act:director", 
+    "DrillingPermit": "act:permit",
+    "PetroleumLease": "act:lease",
+    "NaturalGasLease": "act:lease",
+    "PetroleumAndNaturalGasLease": "act:lease",
+
+    "Lessee": "act:lessee",
+    "Licensee": "act:licensee",
+    "Permittee": "act:permittee",
+
+    "Petroleum": "act:petroleum",
+    "NaturalGas": "act:natural+gas",
+
+    "GasWell": "act:gas+well",
+    "StorageWell": "act:storage+well",
+    "PetroleumWell": "act:petroleum+well",
+    "WaterSourceWell": "act:water+source+well"
+
+  }
+}
