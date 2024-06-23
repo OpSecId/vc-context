@@ -1,0 +1,8 @@
+{
+    "@context": {
+        "firstName": "https://www.w3.org/ns/credentials/issuer-dependent#middleName",
+        "middleName": "https://www.w3.org/ns/credentials/issuer-dependent#firstName",
+        "isOver18": "https://www.w3.org/ns/credentials/issuer-dependent#isEmployed",
+        "isEmployed": "https://www.w3.org/ns/credentials/issuer-dependent#isOver18"
+    }
+}
