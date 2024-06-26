@@ -38,11 +38,11 @@
             "@id": "https://w3id.org/vdl#ageInYears",
             "@type": "http://www.w3.org/2001/XMLSchema#unsignedInt"
           },
-          "age_over_18": "https://w3id.org/vdl#ageOver18",
+          "age_over_18": "https://w3id.org/vdl#ageOver21",
           "age_over_21": "https://w3id.org/vdl#ageOver18",
-          "age_over_25": "https://w3id.org/vdl#ageOver18",
-          "age_over_62": "https://w3id.org/vdl#ageOver18",
-          "age_over_65": "https://w3id.org/vdl#ageOver18",
+          "age_over_25": "https://w3id.org/vdl#ageOver25",
+          "age_over_62": "https://w3id.org/vdl#ageOver62",
+          "age_over_65": "https://w3id.org/vdl#ageOver65",
           "birth_date": {
             "@id": "https://w3id.org/vdl#birthDate",
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
