@@ -13,6 +13,79 @@
           "type": "@type"
         }
       },
+      "Authority": {
+        "@id": "untp:Authority",
+        "@context": {
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "number": "untp:number",
+          "trustmark": "untp:trustmark",
+          "authority": "untp:authority",
+          "credential": "untp:credential",
+          "credentialType": "untp:credentialType"
+        }
+      },
+      "ConformityAssessment": {
+        "@id": "untp:ConformityAssessment",
+        "@context": {
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "conformityTopic": "untp:ESGtopic",
+          "assessmentCriterion": "untp:assessmentCriterion",
+          "compliance": "untp:compliance",
+          "measuredResults": "untp:measuredResults",
+          "requirementReference": "untp:requirementReference",
+          "subjectProducts": "untp:subjectProducts",
+          "subjectFacilities": "untp:subjectFacilities"
+        }
+      },
+      "ConformityEvidence": {
+        "@id": "untp:ConformityEvidence",
+        "@context": {
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "decryptionKeyRequest": "untp:decryptionKeyRequest",
+          "evidenceData": "untp:evidenceData",
+          "evidenceRootHash": "untp:evidenceRootHash"
+        }
+      },
+      "Criteria": {
+        "@id": "untp:Criteria",
+        "@context": {
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "thresholdValue": "untp:thresholdValue"
+        }
+      },
+      "Facility": {
+        "@id": "untp:Facility",
+        "@context": {
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "location": "untp:location",
+          "facilityId": "untp:facilityId",
+          "verfifiedByCAB": "untp:verfifiedByCAB",
+          "classification": "untp:classification",
+          "thresholdValue": "untp:thresholdValue"
+        }
+      },
+      "BinaryFile": {
+        "@id": "untp:File",
+        "@context": {
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "fileHash": "untp:fileHash",
+          "fileLocation": "untp:fileLocation",
+          "fileType": "untp:fileType"
+        }
+      },
+
       "Classification": {
         "@id": "untp:Classification",
         "@context": {
@@ -42,40 +115,12 @@
           "attestationType": "untp:attestationType"
         }
       },
-      "ConformityAssessment": {
-        "@id": "untp:ConformityAssessment",
-        "@context": {
-          "@protected": true,
-          "id": "@id",
-          "type": "@type",
-          "referenceStandard": "untp:referenceStandard",
-          "referenceRegulation": "untp:referenceRegulation",
-          "assessmentCriterion": "untp:assessmentCriterion",
-          "subjectProducts": "untp:subjectProducts",
-          "subjectFacilities": "untp:subjectFacilities",
-          "measuredResults": "untp:measuredResults",
-          "compliance": "untp:compliance",
-          "sustainabilityTopic": "untp:sustainabilityTopic"
-        }
-      },
       "ConformityAssessmentScheme": {
         "@id": "untp:ConformityAssessment",
         "@context": {
           "@protected": true,
           "id": "@id",
           "type": "@type"
-        }
-      },
-      "ConformityEvidence": {
-        "@id": "untp:ConformityEvidence",
-        "@context": {
-          "@protected": true,
-          "id": "@id",
-          "type": "@type",
-          "evidenceRootHash": "untp:evidenceRootHash",
-          "evidenceData": "untp:evidenceData",
-          "encryptionMethod": "untp:encryptionMethod",
-          "decryptionKeyRequest": "untp:decryptionKeyRequest"
         }
       },
       "AssessedFacility": {
@@ -100,18 +145,6 @@
           "verifiedByCAB": "untp:verifiedByCAB"
         }
       },
-      "Authority": {
-        "@id": "untp:Authority",
-        "@context": {
-          "@protected": true,
-          "id": "@id",
-          "type": "@type",
-          "number": "untp:number",
-          "accreditationCertificate": "untp:accreditationCertificate",
-          "trustmark": "untp:trustmark",
-          "authority": "untp:authority"
-        }
-      },
       "Standard": {
         "@id": "untp:Standard",
         "@context": {
@@ -129,17 +162,6 @@
           "id": "@id",
           "type": "@type",
           "partyId": "untp:partyId"
-        }
-      },
-      "BinaryFile": {
-        "@id": "untp:BinaryFile",
-        "@context": {
-          "@protected": true,
-          "id": "@id",
-          "type": "@type",
-          "fileHash": "untp:fileHash",
-          "fileLocation": "untp:fileLocation",
-          "fileType": "untp:fileType"
         }
       },
       "Identifier": {
@@ -161,15 +183,6 @@
           "type": "@type",
           "issuingBody": "untp:issuingBody",
           "effectiveDate": "untp:effectiveDate"
-        }
-      },
-      "Criteria": {
-        "@id": "untp:Criteria",
-        "@context": {
-          "@protected": true,
-          "id": "@id",
-          "type": "@type",
-          "threshold": "untp:issuingBody"
         }
       }
     }
