@@ -2,6 +2,9 @@
     "@context": {
       "@protected": true,
       "untp": "https://test.uncefact.org/vocabulary/untp/cc/",
+      "identifierURI": "untp:identifierURI",
+      "identifierScheme": "untp:identifierScheme",
+      "identifierValue": "untp:identifierValue",
       "DigitalConformityCredential": {
         "@id": "untp:DigitalConformityCredential",
         "@context": {
@@ -129,7 +132,7 @@
         }
       },
       "BinaryFile": {
-        "@id": "untp:Standard",
+        "@id": "untp:BinaryFile",
         "@context": {
           "@protected": true,
           "id": "@id",
@@ -140,7 +143,7 @@
         }
       },
       "Identifier": {
-        "@id": "untp:Standard",
+        "@id": "untp:Identifier",
         "@context": {
           "@protected": true,
           "id": "@id",
