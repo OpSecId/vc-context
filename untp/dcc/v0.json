@@ -1,0 +1,173 @@
+{
+    "@context": {
+      "@protected": true,
+      "untp": "https://test.uncefact.org/vocabulary/untp/cc/",
+      "DigitalConformityCredential": {
+        "@id": "untp:DigitalConformityCredential",
+        "@context": {
+          "@protected": true,
+          "id": "@id",
+          "type": "@type"
+        }
+      },
+      "Classification": {
+        "@id": "untp:Classification",
+        "@context": {
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "scheme": "untp:scheme",
+          "classifierName": "untp:classifierName"
+        }
+      },
+      "ConformityAttestation": {
+        "@id": "untp:ConformityAttestation",
+        "@context": {
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "scope": "untp:scope",
+          "issuedBy": "untp:issuedBy",
+          "issuedTo": "untp:issuedTo",
+          "evidence": "untp:evidence",
+          "assessments": "untp:assessments",
+          "accreditation": "untp:accreditation",
+          "regulatoryApproval": "untp:regulatoryApproval",
+          "conformityCertificate": "untp:conformityCertificate",
+          "assessorLevel": "untp:assessorLevel",
+          "assessmentLevel": "untp:assessmentLevel",
+          "attestationType": "untp:attestationType"
+        }
+      },
+      "ConformityAssessment": {
+        "@id": "untp:ConformityAssessment",
+        "@context": {
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "referenceStandard": "untp:referenceStandard",
+          "referenceRegulation": "untp:referenceRegulation",
+          "assessmentCriterion": "untp:assessmentCriterion",
+          "subjectProducts": "untp:subjectProducts",
+          "subjectFacilities": "untp:subjectFacilities",
+          "measuredResults": "untp:measuredResults",
+          "compliance": "untp:compliance",
+          "sustainabilityTopic": "untp:sustainabilityTopic"
+        }
+      },
+      "ConformityAssessmentScheme": {
+        "@id": "untp:ConformityAssessment",
+        "@context": {
+          "@protected": true,
+          "id": "@id",
+          "type": "@type"
+        }
+      },
+      "ConformityEvidence": {
+        "@id": "untp:ConformityEvidence",
+        "@context": {
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "evidenceRootHash": "untp:evidenceRootHash",
+          "evidenceData": "untp:evidenceData",
+          "encryptionMethod": "untp:encryptionMethod",
+          "decryptionKeyRequest": "untp:decryptionKeyRequest"
+        }
+      },
+      "AssessedFacility": {
+        "@id": "untp:AssessedFacility",
+        "@context": {
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "geolocation": "untp:geolocation",
+          "verifiedByCAB": "untp:verifiedByCAB",
+          "processTypes": "untp:processTypes"
+        }
+      },
+      "AssessedProduct": {
+        "@id": "untp:AssessedProduct",
+        "@context": {
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "testedBatchId": "untp:testedBatchId",
+          "productTypes": "untp:productTypes",
+          "verifiedByCAB": "untp:verifiedByCAB"
+        }
+      },
+      "Authority": {
+        "@id": "untp:Authority",
+        "@context": {
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "number": "untp:number",
+          "accreditationCertificate": "untp:accreditationCertificate",
+          "trustmark": "untp:trustmark",
+          "authority": "untp:authority"
+        }
+      },
+      "Standard": {
+        "@id": "untp:Standard",
+        "@context": {
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "issuingBody": "untp:issuingBody",
+          "issuanceDate": "untp:issuanceDate"
+        }
+      },
+      "Party": {
+        "@id": "untp:Party",
+        "@context": {
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "partyId": "untp:partyId"
+        }
+      },
+      "BinaryFile": {
+        "@id": "untp:Standard",
+        "@context": {
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "fileHash": "untp:fileHash",
+          "fileLocation": "untp:fileLocation",
+          "fileType": "untp:fileType"
+        }
+      },
+      "Identifier": {
+        "@id": "untp:Standard",
+        "@context": {
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "identifierURI": "untp:identifierURI",
+          "identifierScheme": "untp:identifierScheme",
+          "identifierValue": "untp:identifierValue"
+        }
+      },
+      "Regulation": {
+        "@id": "untp:Regulation",
+        "@context": {
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "issuingBody": "untp:issuingBody",
+          "effectiveDate": "untp:effectiveDate"
+        }
+      },
+      "Criteria": {
+        "@id": "untp:Criteria",
+        "@context": {
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "threshold": "untp:issuingBody"
+        }
+      }
+    }
+  }
