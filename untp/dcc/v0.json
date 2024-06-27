@@ -1,159 +1,158 @@
 {
-    "@context": {
-      "@protected": true,
-      "untp": "https://test.uncefact.org/vocabulary/untp/cc/",
-      "identifierURI": "untp:identifierURI",
-      "identifierScheme": "untp:identifierScheme",
-      "identifierValue": "untp:identifierValue",
-      "DigitalConformityCredential": {
-        "@id": "untp:DigitalConformityCredential",
-        "@context": {
-          "@protected": true
-        }
-      },
-      "Authority": {
-        "@id": "untp:Authority",
-        "@context": {
-          "@protected": true,
-          "id": "@id",
-          "type": "@type",
-          "number": "untp:number",
-          "trustmark": "untp:trustmark",
-          "authority": "untp:authority",
-          "credential": "untp:credential",
-          "credentialType": "untp:credentialType"
-        }
-      },
-      "ConformityAssessment": {
-        "@id": "untp:ConformityAssessment",
-        "@context": {
-          "@protected": true,
-          "conformityTopic": "untp:ESGtopic",
-          "assessmentCriterion": "untp:assessmentCriterion",
-          "compliance": "untp:compliance",
-          "measuredResults": "untp:measuredResults",
-          "requirementReference": "untp:requirementReference",
-          "subjectProducts": "untp:subjectProducts",
-          "subjectFacilities": "untp:subjectFacilities"
-        }
-      },
-      "ConformityEvidence": {
-        "@id": "untp:ConformityEvidence",
-        "@context": {
-          "@protected": true,
-          "decryptionKeyRequest": "untp:decryptionKeyRequest",
-          "evidenceData": "untp:evidenceData",
-          "evidenceRootHash": "untp:evidenceRootHash"
-        }
-      },
-      "Criteria": {
-        "@id": "untp:Criteria",
-        "@context": {
-          "@protected": true,
-          "thresholdValue": "untp:thresholdValue"
-        }
-      },
-      "Facility": {
-        "@id": "untp:Facility",
-        "@context": {
-          "@protected": true,
-          "location": "untp:location",
-          "facilityId": "untp:facilityId",
-          "verfifiedByCAB": "untp:verfifiedByCAB",
-          "classification": "untp:classification",
-          "thresholdValue": "untp:thresholdValue"
-        }
-      },
-      "BinaryFile": {
-        "@id": "untp:File",
-        "@context": {
-          "@protected": true,
-          "fileHash": "untp:fileHash",
-          "fileLocation": "untp:fileLocation",
-          "fileType": "untp:fileType"
-        }
-      },
-
-      "Classification": {
-        "@id": "untp:Classification",
-        "@context": {
-          "@protected": true,
-          "scheme": "untp:scheme",
-          "classifierName": "untp:classifierName"
-        }
-      },
-      "ConformityAttestation": {
-        "@id": "untp:ConformityAttestation",
-        "@context": {
-          "@protected": true,
-          "scope": "untp:scope",
-          "issuedBy": "untp:issuedBy",
-          "issuedTo": "untp:issuedTo",
-          "evidence": "untp:evidence",
-          "assessments": "untp:assessments",
-          "accreditation": "untp:accreditation",
-          "regulatoryApproval": "untp:regulatoryApproval",
-          "conformityCertificate": "untp:conformityCertificate",
-          "assessorLevel": "untp:assessorLevel",
-          "assessmentLevel": "untp:assessmentLevel",
-          "attestationType": "untp:attestationType"
-        }
-      },
-      "ConformityAssessmentScheme": {
-        "@id": "untp:ConformityAssessment",
-        "@context": {
-          "@protected": true,
-        }
-      },
-      "AssessedFacility": {
-        "@id": "untp:AssessedFacility",
-        "@context": {
-          "@protected": true,
-          "geolocation": "untp:geolocation",
-          "verifiedByCAB": "untp:verifiedByCAB",
-          "processTypes": "untp:processTypes"
-        }
-      },
-      "AssessedProduct": {
-        "@id": "untp:AssessedProduct",
-        "@context": {
-          "@protected": true,
-          "testedBatchId": "untp:testedBatchId",
-          "productTypes": "untp:productTypes",
-          "verifiedByCAB": "untp:verifiedByCAB"
-        }
-      },
-      "Standard": {
-        "@id": "untp:Standard",
-        "@context": {
-          "@protected": true,
-          "issuingBody": "untp:issuingBody",
-          "issuanceDate": "untp:issuanceDate"
-        }
-      },
-      "Party": {
-        "@id": "untp:Party",
-        "@context": {
-          "@protected": true,
-          "partyId": "untp:partyId"
-        }
-      },
-      "Identifier": {
-        "@id": "untp:Identifier",
-        "@context": {
-          "@protected": true,
-          "identifierURI": "untp:identifierURI",
-          "identifierScheme": "untp:identifierScheme",
-          "identifierValue": "untp:identifierValue"
-        }
-      },
-      "Regulation": {
-        "@id": "untp:Regulation",
-        "@context": {
-          "@protected": true,
-          "issuingBody": "untp:issuingBody",
-          "effectiveDate": "untp:effectiveDate"
-        }
+  "@context": {
+    "@protected": true,
+    "untp": "https://test.uncefact.org/vocabulary/untp/cc/",
+    "identifierURI": "untp:identifierURI",
+    "identifierScheme": "untp:identifierScheme",
+    "identifierValue": "untp:identifierValue",
+    "DigitalConformityCredential": {
+      "@id": "untp:DigitalConformityCredential",
+      "@context": {
+        "@protected": true
+      }
+    },
+    "Authority": {
+      "@id": "untp:Authority",
+      "@context": {
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "number": "untp:number",
+        "trustmark": "untp:trustmark",
+        "authority": "untp:authority",
+        "credential": "untp:credential",
+        "credentialType": "untp:credentialType"
+      }
+    },
+    "ConformityAssessment": {
+      "@id": "untp:ConformityAssessment",
+      "@context": {
+        "@protected": true,
+        "conformityTopic": "untp:ESGtopic",
+        "assessmentCriterion": "untp:assessmentCriterion",
+        "compliance": "untp:compliance",
+        "measuredResults": "untp:measuredResults",
+        "requirementReference": "untp:requirementReference",
+        "subjectProducts": "untp:subjectProducts",
+        "subjectFacilities": "untp:subjectFacilities"
+      }
+    },
+    "ConformityEvidence": {
+      "@id": "untp:ConformityEvidence",
+      "@context": {
+        "@protected": true,
+        "decryptionKeyRequest": "untp:decryptionKeyRequest",
+        "evidenceData": "untp:evidenceData",
+        "evidenceRootHash": "untp:evidenceRootHash"
+      }
+    },
+    "Criteria": {
+      "@id": "untp:Criteria",
+      "@context": {
+        "@protected": true,
+        "thresholdValue": "untp:thresholdValue"
+      }
+    },
+    "Facility": {
+      "@id": "untp:Facility",
+      "@context": {
+        "@protected": true,
+        "location": "untp:location",
+        "facilityId": "untp:facilityId",
+        "verfifiedByCAB": "untp:verfifiedByCAB",
+        "classification": "untp:classification",
+        "thresholdValue": "untp:thresholdValue"
+      }
+    },
+    "BinaryFile": {
+      "@id": "untp:File",
+      "@context": {
+        "@protected": true,
+        "fileHash": "untp:fileHash",
+        "fileLocation": "untp:fileLocation",
+        "fileType": "untp:fileType"
+      }
+    },
+    "Classification": {
+      "@id": "untp:Classification",
+      "@context": {
+        "@protected": true,
+        "scheme": "untp:scheme",
+        "classifierName": "untp:classifierName"
+      }
+    },
+    "ConformityAttestation": {
+      "@id": "untp:ConformityAttestation",
+      "@context": {
+        "@protected": true,
+        "scope": "untp:scope",
+        "issuedBy": "untp:issuedBy",
+        "issuedTo": "untp:issuedTo",
+        "evidence": "untp:evidence",
+        "assessments": "untp:assessments",
+        "accreditation": "untp:accreditation",
+        "regulatoryApproval": "untp:regulatoryApproval",
+        "conformityCertificate": "untp:conformityCertificate",
+        "assessorLevel": "untp:assessorLevel",
+        "assessmentLevel": "untp:assessmentLevel",
+        "attestationType": "untp:attestationType"
+      }
+    },
+    "ConformityAssessmentScheme": {
+      "@id": "untp:ConformityAssessment",
+      "@context": {
+        "@protected": true
+      }
+    },
+    "AssessedFacility": {
+      "@id": "untp:AssessedFacility",
+      "@context": {
+        "@protected": true,
+        "geolocation": "untp:geolocation",
+        "verifiedByCAB": "untp:verifiedByCAB",
+        "processTypes": "untp:processTypes"
+      }
+    },
+    "AssessedProduct": {
+      "@id": "untp:AssessedProduct",
+      "@context": {
+        "@protected": true,
+        "testedBatchId": "untp:testedBatchId",
+        "productTypes": "untp:productTypes",
+        "verifiedByCAB": "untp:verifiedByCAB"
+      }
+    },
+    "Standard": {
+      "@id": "untp:Standard",
+      "@context": {
+        "@protected": true,
+        "issuingBody": "untp:issuingBody",
+        "issuanceDate": "untp:issuanceDate"
+      }
+    },
+    "Party": {
+      "@id": "untp:Party",
+      "@context": {
+        "@protected": true,
+        "partyId": "untp:partyId"
+      }
+    },
+    "Identifier": {
+      "@id": "untp:Identifier",
+      "@context": {
+        "@protected": true,
+        "identifierURI": "untp:identifierURI",
+        "identifierScheme": "untp:identifierScheme",
+        "identifierValue": "untp:identifierValue"
+      }
+    },
+    "Regulation": {
+      "@id": "untp:Regulation",
+      "@context": {
+        "@protected": true,
+        "issuingBody": "untp:issuingBody",
+        "effectiveDate": "untp:effectiveDate"
       }
     }
   }
+}
