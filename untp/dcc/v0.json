@@ -8,9 +8,7 @@
       "DigitalConformityCredential": {
         "@id": "untp:DigitalConformityCredential",
         "@context": {
-          "@protected": true,
-          "id": "@id",
-          "type": "@type"
+          "@protected": true
         }
       },
       "Authority": {
@@ -30,8 +28,6 @@
         "@id": "untp:ConformityAssessment",
         "@context": {
           "@protected": true,
-          "id": "@id",
-          "type": "@type",
           "conformityTopic": "untp:ESGtopic",
           "assessmentCriterion": "untp:assessmentCriterion",
           "compliance": "untp:compliance",
@@ -45,8 +41,6 @@
         "@id": "untp:ConformityEvidence",
         "@context": {
           "@protected": true,
-          "id": "@id",
-          "type": "@type",
           "decryptionKeyRequest": "untp:decryptionKeyRequest",
           "evidenceData": "untp:evidenceData",
           "evidenceRootHash": "untp:evidenceRootHash"
@@ -56,8 +50,6 @@
         "@id": "untp:Criteria",
         "@context": {
           "@protected": true,
-          "id": "@id",
-          "type": "@type",
           "thresholdValue": "untp:thresholdValue"
         }
       },
@@ -65,8 +57,6 @@
         "@id": "untp:Facility",
         "@context": {
           "@protected": true,
-          "id": "@id",
-          "type": "@type",
           "location": "untp:location",
           "facilityId": "untp:facilityId",
           "verfifiedByCAB": "untp:verfifiedByCAB",
@@ -78,8 +68,6 @@
         "@id": "untp:File",
         "@context": {
           "@protected": true,
-          "id": "@id",
-          "type": "@type",
           "fileHash": "untp:fileHash",
           "fileLocation": "untp:fileLocation",
           "fileType": "untp:fileType"
@@ -90,8 +78,6 @@
         "@id": "untp:Classification",
         "@context": {
           "@protected": true,
-          "id": "@id",
-          "type": "@type",
           "scheme": "untp:scheme",
           "classifierName": "untp:classifierName"
         }
@@ -100,8 +86,6 @@
         "@id": "untp:ConformityAttestation",
         "@context": {
           "@protected": true,
-          "id": "@id",
-          "type": "@type",
           "scope": "untp:scope",
           "issuedBy": "untp:issuedBy",
           "issuedTo": "untp:issuedTo",
@@ -119,16 +103,12 @@
         "@id": "untp:ConformityAssessment",
         "@context": {
           "@protected": true,
-          "id": "@id",
-          "type": "@type"
         }
       },
       "AssessedFacility": {
         "@id": "untp:AssessedFacility",
         "@context": {
           "@protected": true,
-          "id": "@id",
-          "type": "@type",
           "geolocation": "untp:geolocation",
           "verifiedByCAB": "untp:verifiedByCAB",
           "processTypes": "untp:processTypes"
@@ -138,8 +118,6 @@
         "@id": "untp:AssessedProduct",
         "@context": {
           "@protected": true,
-          "id": "@id",
-          "type": "@type",
           "testedBatchId": "untp:testedBatchId",
           "productTypes": "untp:productTypes",
           "verifiedByCAB": "untp:verifiedByCAB"
@@ -149,8 +127,6 @@
         "@id": "untp:Standard",
         "@context": {
           "@protected": true,
-          "id": "@id",
-          "type": "@type",
           "issuingBody": "untp:issuingBody",
           "issuanceDate": "untp:issuanceDate"
         }
@@ -159,8 +135,6 @@
         "@id": "untp:Party",
         "@context": {
           "@protected": true,
-          "id": "@id",
-          "type": "@type",
           "partyId": "untp:partyId"
         }
       },
@@ -168,8 +142,6 @@
         "@id": "untp:Identifier",
         "@context": {
           "@protected": true,
-          "id": "@id",
-          "type": "@type",
           "identifierURI": "untp:identifierURI",
           "identifierScheme": "untp:identifierScheme",
           "identifierValue": "untp:identifierValue"
@@ -179,8 +151,6 @@
         "@id": "untp:Regulation",
         "@context": {
           "@protected": true,
-          "id": "@id",
-          "type": "@type",
           "issuingBody": "untp:issuingBody",
           "effectiveDate": "untp:effectiveDate"
         }
